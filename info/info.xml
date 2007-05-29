@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 
 <project>
-        <name>TORO</name>
+        <name>TORO - Tree-based netwORk Optimizer</name>
 
         <author>
 		<name>Giorgio Grisetti</name>
@@ -27,7 +27,7 @@
 	</briefdescription>
 
         <description>
-        In 2006, Olson {\em et al.}  presented a novel approach to
+        In 2006, Olson  et al.  presented a novel approach to
         solve the graph-based SLAM problem by applying stochastic
         gradient descent to minimize the error introduced by
         constraints.  TORO is an extension of Olson's algorithm.  It
@@ -53,9 +53,14 @@
 	</logformat>
 
 	<image> 
-		<url>http://www.doubleblindreview.org/161006/w-200000-0.01-0.005.findequiv.png</url>
-		<thumbnailurl>>http://www.doubleblindreview.org/161006/_w-200000-0.01-0.005.findequiv.png</thumbnailurl>
-		<description>A corrected 200.000 nodes network</description>
+		<url>http://www.informatik.uni-freiburg.de/~stachnis/toro/w-200000-0.01-0.005.gsgd.png</url>
+		<thumbnailurl>http://www.informatik.uni-freiburg.de/~stachnis/toro/_w-200000-0.01-0.005.gsgd.png</thumbnailurl>
+		<description>A corrected  network with 200k nodes</description>
+	</image>
+	<image> 
+		<url>http://www.informatik.uni-freiburg.de/~stachnis/toro/gsgd-w5000-noequiv.avi</url>
+		<thumbnailurl>http://www.informatik.uni-freiburg.de/~stachnis/toro/_gsgd-w5000-noequiv.png</thumbnailurl>
+		<description>Small video (5k nodes/30k constraints)</description>
 	</image>
 
 	<paper>
