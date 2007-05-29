@@ -49,7 +49,17 @@
 	</input>
 
 	<logformat> A set of simple text messages to represent nodes
-	(VERTEX) and edges (EDGES) of the graph. 
+	(VERTEX) and edges (EDGE) of the graph. 
+
+	VERTEX id x y orientation
+	(A node in the graph)
+
+	EDGE observed_vertex_id observing_vertex_id forward sideward rotate cov_ff cov_fs cov_ss cov_rr cov_fr cov_sr
+	(An edge in the graph. cov_xx are the covariance entries of the constraint)
+
+	EQUIV id1 id2
+	(Equivalence constraints between nodes)
+
 	</logformat>
 
 	<image> 
