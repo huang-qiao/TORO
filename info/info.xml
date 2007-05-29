@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+
+<project>
+        <name>TORO</name>
+
+        <author>
+		<name>Giorgio Grisetti</name>
+		<url>http://www.informatik.uni-freiburg.de/~grisetti</url>
+	</author>
+        <author>
+		<name>Cyrill Stachniss</name>
+		<url>http://www.informatik.uni-freiburg.de/~stachnis</url>
+	</author>
+        <author>
+		<name>Wolfram Burgard</name>
+		<url>http://www.informatik.uni-freiburg.de/~burgard</url>
+	</author>
+
+        <url>http://www.informatik.uni-freiburg.de/~stachnis/toro/</url>
+
+        <briefdescription>
+	TORO is an optimization approach for constraint-network. It
+	provides a highly efficient, gradient descent-based error
+	minimization procedure and is probably the fastest of one of
+	the fastest methods so far (at least in the robotics
+	community).  
+	</briefdescription>
+
+        <description>
+        In 2006, Olson {\em et al.}  presented a novel approach to
+        solve the graph-based SLAM problem by applying stochastic
+        gradient descent to minimize the error introduced by
+        constraints.  TORO is an extension of Olson's algorithm.  It
+        applies a tree parameterization of the nodes in the graph that
+        significantly improves the performance and enables a robot to
+        cope with arbitrary network topologies. The latter allows us
+        to bound the complexity of the algorithm to the size of the
+        mapped area and not to the length of the trajectory.
+        </description>
+
+        <requirement>
+	Developed under Linux, GCC 4.0.2 but should work anywhere where GCC runs
+	</requirement>
+
+	<map>Graphs (nodes and edge)</map>
+
+	<input>
+	Nodes and edges of a graph.
+	</input>
+
+	<logformat> A set of simple text messages to represent nodes
+	(VERTEX) and edges (EDGES) of the graph. 
+	</logformat>
+
+	<image> 
+		<url>http://www.doubleblindreview.org/161006/w-200000-0.01-0.005.findequiv.png</url>
+		<thumbnailurl>>http://www.doubleblindreview.org/161006/_w-200000-0.01-0.005.findequiv.png</thumbnailurl>
+		<description>A corrected 200.000 nodes network</description>
+	</image>
+
+	<paper>
+		<title>A Tree Parameterization for Efficiently Computing Maximum Likelihood Maps using Gradient Descent.</title>
+		<authorlist>Giorgio Grisetti, Cyrill Stachniss, Slawomir Grzonka, and Wolfram Burgard</authorlist>
+			<publishedin>Robotics: Science and Systems (RSS)</publishedin>
+				<year>2007</year>
+	</paper>
+
+	<license>TORO is licenced under the Creative Commons
+	(Attribution-NonCommercial-ShareAlike).</license>
+
+	<furthermore>
+	C++ code, quite compact, efficient, and stand-alone
+	</furthermore>
+
+</project>
