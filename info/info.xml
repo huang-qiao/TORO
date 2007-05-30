@@ -58,7 +58,7 @@
 	(An edge in the graph. cov_xx are the covariance entries of the constraint)
 
 	EQUIV id1 id2
-	(Equivalence constraints between nodes)
+	(Equivalence constraints between nodes. It merges the node id1 and id2 wrt to the constraint between both vertices.)
 
 	</logformat>
 
