@@ -27,7 +27,7 @@
 	</briefdescription>
 
         <description>
-        In 2006, Olson  et al.  presented a novel approach to
+        Recently, Olson  et al.  presented a novel approach to
         solve the graph-based SLAM problem by applying stochastic
         gradient descent to minimize the error introduced by
         constraints.  TORO is an extension of Olson's algorithm.  It
