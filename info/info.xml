@@ -62,10 +62,10 @@
 	(Equivalence constraints between nodes. It merges the node id1 and id2 wrt to the constraint between both vertices. 
 	- toro(2d) and toro3d)
 
-	VERTEX id x y z phi theta psi
+	VERTEX3 id x y z phi theta psi
 	(A 3D-node in the graph - toro3d)
 
-	EDGE observed_vertex_id observing_vertex_id x y z roll pitch yaw cov_11 cov_12 .. cov_16 cov_21 .. cov_66
+	EDGE3 observed_vertex_id observing_vertex_id x y z roll pitch yaw cov_11 cov_12 .. cov_16 cov_21 .. cov_66
 	(A 3D-edge in the graph. cov_xx are the covariance entries of the constraint - toro3d)
 
 
