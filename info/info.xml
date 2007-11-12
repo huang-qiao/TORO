@@ -92,6 +92,7 @@
 		<authorlist>Giorgio Grisetti, Cyrill Stachniss, Slawomir Grzonka, and Wolfram Burgard</authorlist>
 			<publishedin>Robotics: Science and Systems (RSS)</publishedin>
 				<year>2007</year>
+	</paper>
 	<paper>
 		<title>Efficient Estimation of Accurate Maximum Likelihood Maps in 3D.</title>
 		<authorlist>Grisetti Giorgio, Slawomir Grzonka, Cyrill Stachniss, Patrick Pfaff, and Wolfram Burgard</authorlist>
