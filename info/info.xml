@@ -24,7 +24,12 @@
 	minimization procedure.  Currently (2007), there are not many
 	such efficient methods available (at least we have not seen
 	them yet...). There is a 2D and a 3D version of TORO
-	available.
+	available.<br>
+        <br>
+        <b>NEWS (31/12/2007) New version available. Changed the rule for
+           updating the rotations for the constraint updates.<br>
+           Much more stable!  
+        </b>
 	 </briefdescription>
 
         <description>
