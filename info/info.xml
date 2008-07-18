@@ -25,10 +25,8 @@
         <briefdescription>
 	TORO is an optimization approach for constraint-network. It
 	provides a highly efficient, gradient descent-based error
-	minimization procedure.  Currently (2007), there are not many
-	such efficient methods available (at least we have not seen
-	them yet...). There is a 2D and a 3D version of TORO
-	available.
+	minimization procedure.  There is a 2D and a 3D version of
+	TORO available.
 
 	NEWS (31/12/2007) A new version is available which applies a
          new rule for updating the rotations for the constraint
@@ -49,7 +47,9 @@
         </description>
 
         <requirement>
-	Developed under Linux, GCC 4.0.2 but should work anywhere where GCC runs
+	Developed under Linux, GCC 4.0.2 but should work anywhere where GCC runs.
+	
+	07/2008 Patch for compatability with gcc 4.3.x as well as MacOSX
 	</requirement>
 
 	<map>Graphs (nodes and edge)</map>
