@@ -49,7 +49,7 @@
         <requirement>
 	Developed under Linux, GCC 4.0.2 but should work anywhere where GCC runs.
 	
-	07/2008 Patch for compatability with gcc 4.3.x as well as MacOSX
+	07/2008 Patch for compatability with gcc 4.3.x as well as MacOSX (thanks to P. Checchin)
 	</requirement>
 
 	<map>Graphs (nodes and edge)</map>
