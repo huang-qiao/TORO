@@ -24,14 +24,9 @@
 
         <briefdescription>
 	TORO is an optimization approach for constraint-network. It
-	provides a highly efficient, gradient descent-based error
+	provides an efficient, gradient descent-based error
 	minimization procedure.  There is a 2D and a 3D version of
 	TORO available.
-
-	NEWS (31/12/2007) A new version is available which applies a
-         new rule for updating the rotations for the constraint
-         updates. This results is a significantly more stable solution
-         in 6D.
         </briefdescription>
 
         <description>
