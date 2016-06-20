@@ -5,7 +5,9 @@ set( CMAKE_MODULE_PATH $ENV{CMAKE_MODULE_PATH} )
 set( CMAKE_PREFIX_PATH $ENV{CMAKE_PREFIX_PATH} )
 
 ## Specify a project name
+#if (NOT PROJECT_NAME)
 project( toro )
+#endif(NOT PROJECT_NAME)
 
 ## Required software
 #find_package( <<<name>>> REQUIRED )
